@@ -31,4 +31,5 @@ HEADERS  += mainwindow.h
 FORMS    += mainwindow.ui
 
 DISTFILES += \
-    introVideo.mov
+    introVideo.mov \
+    backgroundImage.jpg

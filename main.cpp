@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     QMediaPlayer* player =new QMediaPlayer;
     QVideoWidget*vw =new QVideoWidget;
     player->setVideoOutput(vw);
-    player->setMedia(QUrl::fromLocalFile("C:/Users/HP/Desktop/5th sem project/fifa2017analysis/introVideo.mov"));
+    player->setMedia(QUrl::fromLocalFile("C:/Users/HP/fifa2017analysis/introVideo.mov"));
     vw->setGeometry(0,0,1920,1028);
     MainWindow w;
     vw->showFullScreen();
