@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>backgroundImage.jpg</file>
+        <file>backgroundVideo.mp4</file>
+        <file>heading2.png</file>
+        <file>codeButton.png</file>
+        <file>codeButtonPressed.png</file>
+        <file>datasetButton.png</file>
+        <file>datasetButtonPressed.png</file>
+        <file>EAlogo.png</file>
+        <file>mainHeading.png</file>
+        <file>introVideo.mov</file>
+        <file>background2.jpg</file>
+    </qresource>
+</RCC>

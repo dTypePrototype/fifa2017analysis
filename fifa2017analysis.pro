@@ -24,12 +24,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    analysis1.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    analysis1.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    analysis1.ui
 
 DISTFILES += \
-    introVideo.mov \
-    backgroundImage.jpg
+
+
+RESOURCES += \
+    resources.qrc
