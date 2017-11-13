@@ -1,0 +1,64 @@
+Name                      0
+Nationality               0
+National_Position     16513
+National_Kit          16513
+Club                      0
+Club_Position             1
+Club_Kit                  1
+Club_Joining              1
+Contract_Expiry           1
+Rating                    0
+Preffered_Foot            0
+Birth_Date                0
+Age                       0
+Preffered_Position        0
+Work_Rate                 0
+Weak_foot                 0
+Skill_Moves               0
+Ball_Control              0
+Dribbling                 0
+Marking                   0
+Sliding_Tackle            0
+Standing_Tackle           0
+Aggression                0
+Reactions                 0
+Attacking_Position        0
+Interceptions             0
+Vision                    0
+Composure                 0
+Crossing                  0
+Short_Pass                0
+Long_Pass                 0
+Acceleration              0
+Speed                     0
+Stamina                   0
+Strength                  0
+Balance                   0
+Agility                   0
+Jumping                   0
+Heading                   0
+Shot_Power                0
+Finishing                 0
+Long_Shots                0
+Curve                     0
+Freekick_Accuracy         0
+Penalties                 0
+Volleys                   0
+GK_Positioning            0
+GK_Diving                 0
+GK_Kicking                0
+GK_Handling               0
+GK_Reflexes               0
+Join                      1
+Contract                  1
+period                    1
+dtype: int64
+Best Three Goal Scorers
+1 Lionel Messi
+2 Luis Suárez
+3 Cristiano Ronaldo
+Average Period of Each layer 4.2193097174 years
+30.0
+4593
+0.0
+343
