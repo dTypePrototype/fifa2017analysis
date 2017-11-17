@@ -25,13 +25,40 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    analysis1.cpp
+    analysis1.cpp \
+    analysis2.cpp \
+    analysis3.cpp \
+    analysis4.cpp \
+    analysis5.cpp \
+    analysis6.cpp \
+    analysis7.cpp \
+    analysis71.cpp \
+    analysis72.cpp \
+    analysis73.cpp
 
 HEADERS  += mainwindow.h \
-    analysis1.h
+    analysis1.h \
+    analysis2.h \
+    analysis3.h \
+    analysis4.h \
+    analysis5.h \
+    analysis6.h \
+    analysis7.h \
+    analysis71.h \
+    analysis72.h \
+    analysis73.h
 
 FORMS    += mainwindow.ui \
-    analysis1.ui
+    analysis1.ui \
+    analysis2.ui \
+    analysis3.ui \
+    analysis4.ui \
+    analysis5.ui \
+    analysis6.ui \
+    analysis7.ui \
+    analysis71.ui \
+    analysis72.ui \
+    analysis73.ui
 
 DISTFILES += \
 

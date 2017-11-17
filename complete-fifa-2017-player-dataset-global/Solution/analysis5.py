@@ -2,14 +2,14 @@
 """
 Created on Mon Nov  6 21:56:11 2017
 
-@author: Abhishek
+@author: admin
 """
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
 #reading the complete data
-path = "C:/Users/Abhishek Sharma/Desktop/5th sem project/complete-fifa-2017-player-dataset-global/"
+path = "C:/Users/HP/fifa2017analysis/complete-fifa-2017-player-dataset-global/"
 data = pd.read_csv(path+'FullData.csv')
 
 cols = ['Name','Contract','Club_Joining','period','Contract_Expiry','Club', 'Rating', 'Age','Nationality']

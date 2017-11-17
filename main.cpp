@@ -18,10 +18,10 @@ int main(int argc, char *argv[])
     player->setMedia(QUrl::fromLocalFile("C:/Users/HP/fifa2017analysis/introVideo.mov"));
     vw->setGeometry(0,0,1920,1028);
     MainWindow w;
+    w.showFullScreen();
     vw->showFullScreen();
     player->play();
     Sleeper::sleep(12);
     vw->close();
-    w.showFullScreen();
     return a.exec();
 }

@@ -1,13 +1,13 @@
 #ifndef ANALYSIS1_H
 #define ANALYSIS1_H
 
-#include <QMainWindow>
+#include <QDialog>
 
 namespace Ui {
 class analysis1;
 }
 
-class analysis1 : public QMainWindow
+class analysis1 : public QDialog
 {
     Q_OBJECT
 

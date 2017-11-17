@@ -2,7 +2,7 @@
 """
 Created on Mon Nov  6 22:18:14 2017
 
-@author: Abhishek
+@author: admin
 """
 
 import numpy as np
@@ -19,7 +19,7 @@ def autolabel(rects):
                 ha='center', va='bottom')
 
 
-path = "C:/Users/Abhishek Sharma/Desktop/5th sem project/complete-fifa-2017-player-dataset-global/"
+path = "C:/Users/HP/fifa2017analysis/complete-fifa-2017-player-dataset-global/"
 data = pd.read_csv(path+'FullData.csv')
 
 cols = ['Name','Age','Nationality','Ball_Control','Club',
@@ -59,10 +59,11 @@ p1 = plot.bar(total, Y, 0.5)
 p1[9].set_color('r')
 plt.xticks(total1, X, rotation=90)
 plt.yticks(np.arange(0, 110, 10))
+plt.xlabel("Attributes")
+plt.ylabel("Values")
 plt.title(title)
 autolabel(p1)
 f2.show()
-f2.savefig("Graph 1.png")
 
 #finding the Rank 2 goal scorer
 player = player_data.loc[player_data['Finishing'] == 94 ]
@@ -90,11 +91,11 @@ p1 = plot.bar(total, Y, 0.5)
 p1[9].set_color('r')
 plt.xticks(total1, X, rotation=90)
 plt.yticks(np.arange(0, 110, 10))
+plt.xlabel("Attributes")
+plt.ylabel("Values")
 plt.title(title)
 autolabel(p1)
 f4.show()
-f4.savefig("Graph 2.png")
-
 #finding the Rank 3 goal scorer
 player = player_data.loc[player_data['Finishing'] == 93 ]
 name=player['Name'].item()
@@ -122,7 +123,9 @@ p1 = plot.bar(total, Y, 0.5)
 p1[9].set_color('r')
 plt.xticks(total1, X, rotation=90)
 plt.yticks(np.arange(0, 110, 10))
+plt.xlabel("Attributes")
+plt.ylabel("Values")
 plt.title(title)
 autolabel(p1)
 f6.show()
-f6.savefig("Graph 3.png")
+

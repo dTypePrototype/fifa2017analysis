@@ -2,7 +2,7 @@
 """
 Created on Sat Nov 11 20:07:12 2017
 
-@author: Abhishek
+@author: admin
 """
 #importing the required liberaries
 import numpy as np
@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #reading the complete data
-path = "C:/Users/Abhishek Sharma/Desktop/5th sem project/complete-fifa-2017-player-dataset-global/"
+path = "C:/Users/HP/fifa2017analysis/complete-fifa-2017-player-dataset-global/"
 df=pd.read_csv(path+'FullData.csv')
 Names= pd.read_csv(path+'PlayerNames.csv')
 df.assign(Index=np.nan)

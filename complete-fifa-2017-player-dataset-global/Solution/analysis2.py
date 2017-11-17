@@ -2,7 +2,7 @@
 """
 Created on Mon Nov  6 23:15:51 2017
 
-@author: Abhishek
+@author: admin
 """
 #importing the required packages
 import numpy as np
@@ -21,7 +21,7 @@ def autolabel(rects):
                 ha='center', va='bottom')
 
 #Importing the data
-path = "C:/Users/Abhishek Sharma/Desktop/5th sem project/complete-fifa-2017-player-dataset-global/"
+path = "C:/Users/HP/fifa2017analysis/complete-fifa-2017-player-dataset-global/"
 data = pd.read_csv(path+'FullData.csv')
 
 #selection of the particular columns
@@ -70,7 +70,6 @@ plt.xticks(total, X, rotation=90)
 plt.yticks(np.arange(0, 80, 10))
 plt.title('Field Behaviour by mean')
 f1.show()
-f1.savefig("Mean.png")
 
 
 #calculating the median of all the attributes
@@ -98,7 +97,6 @@ plt.xticks(total, X, rotation=90)
 plt.yticks(np.arange(0, 90, 10))
 plt.title('Field Behaviour by median')
 f2.show()
-f2.savefig("Median.png")
 
 #calculating the mode of all the attriubutes
 mode = field_behv.mode()
@@ -157,4 +155,3 @@ plt.xticks(total, X, rotation=90)
 plt.yticks(np.arange(0, 25, 5))
 plt.title('Field Behaviour by standard deviation')
 f4.show()
-f4.savefig("SD.png")

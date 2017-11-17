@@ -2,12 +2,13 @@
 """
 Created on Sat Nov 11 12:55:12 2017
 
-@author: Abhishek
+@author: admin
 """
 import numpy as np
 import pandas as pd
 import collections as c
 import matplotlib.pyplot as plt
+
 
 
 #function to label the bins of the bar graph
@@ -22,7 +23,7 @@ def autolabel(rects):
                 ha='center', va='bottom')
 
 #reading the fulldata file
-path = "C:/Users/Abhishek Sharma/Desktop/5th sem project/complete-fifa-2017-player-dataset-global/"
+path = "C:/Users/HP/fifa2017analysis/complete-fifa-2017-player-dataset-global/"
 data = pd.read_csv(path+'FullData.csv')
 
 #selected of attributes for analysis

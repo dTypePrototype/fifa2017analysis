@@ -377,7 +377,7 @@ color: rgb(0, 0, 0);
      <rect>
       <x>210</x>
       <y>650</y>
-      <width>751</width>
+      <width>851</width>
       <height>41</height>
      </rect>
     </property>
@@ -408,7 +408,78 @@ color: rgb(0, 0, 0);
 }</string>
     </property>
     <property name="text">
-     <string>(vi) Analytics to find the best team out of all the players.</string>
+     <string>(vi) Analytics to find the best goalkeepers out of all the players.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="anysis7">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>690</y>
+      <width>761</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ergoe</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#anysis7{
+background:transparent;
+border:none;
+background-repeat:none;
+color:rgb(255, 0, 0)
+}
+
+#anysis7:hover
+{
+color: rgb(0, 0, 255);
+}
+
+#anysis7:pressed
+{
+color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>(vii) Analytics to find the best team out of all the players.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FuturistExtraHeavy</family>
+      <pointsize>24</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#exitButton{
+background: transparent;
+	color: rgb(85, 0, 255);
+border:none;
+background-repeat: none;
+}
+#exitButton:hover{
+ color:black;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
     </property>
    </widget>
   </widget>

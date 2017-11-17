@@ -3,7 +3,6 @@
 
 
 #include <QMainWindow>
-#include"analysis1.h"
 namespace Ui {
 class MainWindow;
 }
@@ -23,13 +22,24 @@ private slots:
 
     void on_datasetButton_clicked();
 
-    void on_analysis1_clicked();
-
     void on_anysis1_clicked();
+
+    void on_anysis2_clicked();
+
+    void on_anysis3_clicked();
+
+    void on_anysis4_clicked();
+
+    void on_anysis5_clicked();
+
+    void on_anysis6_clicked();
+
+    void on_anysis7_clicked();
+
+    void on_exitButton_clicked();
 
 private:
     Ui::MainWindow *ui;
-    analysis1 *newwindow;
 };
 
 #endif // MAINWINDOW_H
